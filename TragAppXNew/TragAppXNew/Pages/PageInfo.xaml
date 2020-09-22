@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TragAppXNew.Pages.PageInfo">
+    <ContentPage.Content>
+        <StackLayout TranslationY="10" Padding="20">
+
+            <Image
+                Source="spiaggia.jpg"
+                VerticalOptions="Center"
+                HeightRequest="200"/>
+            
+            <Label
+                Text="Riviera del Conero"
+                HorizontalTextAlignment="Center"
+                FontSize="30"
+                FontAttributes="Bold"
+                />
+
+            <Label
+                Text="Raggiungibile solo via mare, con traghetti che partono dal porticciolo di Numana. Per i più sportivi, in canoa/sup partendo dalle spiaggie di Numana, Sirolo o Portonovo. Dal cimitero di Sirolo ci sono le indicazioni per l'Itinerario 302, che vi porterà fino ad un belvedere (uno sperone di roccia), offrendovi una vista mozzafiato sulla spiaggia delle Due Sorelle e sulla Riviera del Conero. Non è consentito scendere fino alla spiaggia tramite il Passo del Lupo per pericolo di frane."
+                HorizontalTextAlignment="Center"
+                Margin="0,20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

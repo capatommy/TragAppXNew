@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TragAppXNew.Pages.MainPage">
+    <ContentPage.Content>
+        <StackLayout
+        TranslationY="100"
+        Padding="40">
+
+            <Image Source="@drawable/ic_launcher"/>
+            <Label Text="Benvenuto in TragAPP"
+               FontSize="Title"
+               TextColor="Black"
+               HorizontalTextAlignment="Center"/>
+
+            <Label Text="Login Utente"
+               FontSize="Body"
+               HorizontalTextAlignment="Center"/>
+
+            <Entry x:Name="Entry_email" 
+               Placeholder="Email"
+               Keyboard="Email"/>
+
+            <Entry x:Name="Entry_Password" 
+               Placeholder="Password"
+               Keyboard="Text"
+               IsPassword="true"/>
+
+            <Button x:Name="Btn_signin" 
+                Text="Log in"
+                HorizontalOptions="End"
+                BackgroundColor="#5dbcd2"
+                TextColor="White"
+                CornerRadius="10"
+                Clicked="Btn_signin_Clicked"/>
+
+            <Button x:Name="Btn_registration" 
+                BackgroundColor="#5dbcd2"
+                VerticalOptions="End"
+                TextColor="White"
+                CornerRadius="10"
+                Text="REGISTRATI"
+                Clicked="Btn_registration_Clicked"/>
+
+            <Button x:Name="Btn_reset" 
+                BackgroundColor="Transparent"
+                VerticalOptions="End"
+                Margin="20"
+                TextColor="White"
+                CornerRadius="10"
+                Text="Dimenticato la password?"
+                Clicked="Btn_reset_Clicked"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

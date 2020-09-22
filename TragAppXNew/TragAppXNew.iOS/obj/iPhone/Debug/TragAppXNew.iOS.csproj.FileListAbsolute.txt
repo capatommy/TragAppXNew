@@ -1,0 +1,8 @@
+C:\Users\tomyx\source\repos\TragAppXNew\TragAppXNew\TragAppXNew.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\tomyx\source\repos\TragAppXNew\TragAppXNew\TragAppXNew.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\tomyx\source\repos\TragAppXNew\TragAppXNew\TragAppXNew.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\tomyx\source\repos\TragAppXNew\TragAppXNew\TragAppXNew.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\tomyx\source\repos\TragAppXNew\TragAppXNew\TragAppXNew.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\tomyx\source\repos\TragAppXNew\TragAppXNew\TragAppXNew.iOS\obj\iPhone\Debug\optimized\
+C:\Users\tomyx\source\repos\TragAppXNew\TragAppXNew\TragAppXNew.iOS\obj\iPhone\Debug\TragAppXNew.iOS.csprojAssemblyReference.cache
+C:\Users\tomyx\source\repos\TragAppXNew\TragAppXNew\TragAppXNew.iOS\obj\iPhone\Debug\TragAppXNew.iOS.csproj.CoreCompileInputs.cache

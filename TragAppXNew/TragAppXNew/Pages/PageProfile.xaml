@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TragAppXNew.Pages.PageProfile">
+    <ContentPage.Content>
+        <StackLayout TranslationY="10" Padding="20">
+
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="Center">
+                <Grid>
+                    <Frame
+                        CornerRadius="100" 
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        HorizontalOptions="Center"
+                        Padding="0"
+                        IsClippedToBounds="True">
+                                <ImageButton x:Name="propic"
+                                            Clicked="Propic_Clicked"
+                                            Source="placeholder.png"
+                                            VerticalOptions="CenterAndExpand"
+                                            HorizontalOptions="CenterAndExpand"
+                                            
+                                />
+                    </Frame>
+                </Grid>
+
+            </StackLayout>
+
+            <Label x:Name="lblname"
+                   Text="Utente"
+                   HorizontalOptions="Center"
+                   FontSize="30"
+                   FontAttributes="Bold"/>
+
+            <Button x:Name="Btn_Reserve"
+                Clicked="Btn_Reserve_Clicked"
+                TextColor="White"
+                CornerRadius="20"
+                Text="Prenotazione"
+                BackgroundColor="#5dbcd2"
+                HorizontalOptions="Center"
+                Visual="Material"
+                FontAttributes="Bold"
+                IsEnabled="True"
+                Margin="0,20"
+                />
+
+            <Button x:Name="Btn_LogOut"
+                Clicked="Btn_LogOut_Clicked"
+                TextColor="White"
+                CornerRadius="20"
+                Margin="0,20"
+                Text="LOGOUT"
+                BackgroundColor="#5dbcd2"
+                HorizontalOptions="Center"
+                Visual="Material"
+                FontAttributes="Bold"
+                IsEnabled="True"
+                />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

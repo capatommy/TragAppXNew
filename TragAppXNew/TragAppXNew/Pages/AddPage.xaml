@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TragAppXNew.Pages.AddPage">
+    <ContentPage.Content>
+        <StackLayout
+            TranslationY="10"
+            Padding="20">
+            <Image Source="@drawable/ic_launcher"/>
+            <Label Text="Prenota subito"
+                Margin="10"
+                FontSize="30"
+                   
+                   HorizontalTextAlignment="Center" FontAttributes="Bold"         
+                   />
+
+            <StackLayout  Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Visual="Material">
+                <Button
+                    x:Name="Btn_Data"
+                    Text="Data:"
+                    TextColor="White"
+                    CornerRadius="20"
+                    Margin="15,0"
+                    BackgroundColor="#5dbcd2"
+                    HorizontalOptions="Center"
+                    Visual="Material"
+                    FontAttributes="Bold"
+                    IsEnabled="False"
+                    />
+
+                <DatePicker 
+                    MinimumDate ="{Binding PropertyMinimumDate}"
+	                x:Name="DatePicker" 
+                    IsEnabled="true"
+	                Format="d"
+ 	                VerticalOptions="Center" 	
+                    DateSelected="DatePickerDateSelected">
+                </DatePicker>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Visual="Material" Margin="15,0">
+                <Label Text="Num. Passeggeri"
+                       
+                       VerticalTextAlignment="Center"                       
+                       FontSize="20"
+                       FontAttributes="Bold"/>
+
+                <Button x:Name="Btn_Minus"
+                        Clicked="Btn_Minus_Clicked"
+                        Text="-"
+                        WidthRequest="50"
+                        TextColor="White"
+                        CornerRadius="20"
+                        Margin="5,0,5,0"
+                        BackgroundColor="#5dbcd2"
+                        HorizontalOptions="Center"
+                        Visual="Material"
+                        FontAttributes="Bold"
+                        IsEnabled="True"/>
+
+
+                <Label x:Name="lblcounter"
+                       Text="0"
+                       
+                       VerticalTextAlignment="Center"                       
+                       FontSize="20"
+                       FontAttributes="Bold"/>
+
+                <Button x:Name="Btn_Plus"
+                        Clicked="Btn_Plus_Clicked"
+                        Text="+"
+                        WidthRequest="50"
+                        TextColor="White"
+                        CornerRadius="20"
+                        Margin="5,0,0,0"
+                        BackgroundColor="#5dbcd2"
+                        HorizontalOptions="Center"
+                        Visual="Material"
+                        FontAttributes="Bold"
+                        IsEnabled="True"/>
+
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Visual="Material" Margin="15,0">
+                <Label Text="Orario di partenza"
+                       
+                       VerticalTextAlignment="Center"                       
+                       FontSize="20"
+                       FontAttributes="Bold"/>
+                <Picker 
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,0,0,0"
+                    VerticalOptions="Start"
+	                x:Name="AndataPicker" 
+	                Title="Scegli Orario"
+                    IsEnabled="True"
+                    SelectedIndexChanged="AndataSelectedIndexChanged" 
+                    FontAttributes="Italic"
+                    FontSize="15"
+                    Visual="Material" >
+                    <Picker.Items>
+                        <x:String>08:30</x:String>
+                        <x:String>09:30</x:String>
+                        <x:String>10:30</x:String>
+                        <x:String>12:30</x:String>
+                        <x:String>14:30</x:String>
+                    </Picker.Items>
+
+                </Picker>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Visual="Material" Margin="15,0">
+                <Label Text="Orario di ritorno"
+                       
+                       VerticalTextAlignment="Center"                       
+                       FontSize="20"
+                       FontAttributes="Bold"/>
+                <Picker 
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,0,0,0"
+                    VerticalOptions="Start"
+	                x:Name="RitornoPicker" 
+	                Title="Scegli Orario"
+                    IsEnabled="True"
+                    SelectedIndexChanged="RitornoSelectedIndexChanged" 
+                    FontAttributes="Italic"
+                    FontSize="15"
+                    Visual="Material" >
+                    <Picker.Items>
+                        <x:String>11:30</x:String>
+                        <x:String>12:30</x:String>
+                        <x:String>15:00</x:String>
+                        <x:String>16:00</x:String>
+                    </Picker.Items>
+
+                </Picker>
+            </StackLayout>
+
+            <Button x:Name="Btn_Reserve"
+                    Clicked="Btn_Reserve_Clicked"
+                    Text="Prenota"
+                    TextColor="White"
+                    CornerRadius="20"
+                    Margin="5,0,0,0"
+                    BackgroundColor="#5dbcd2"
+                    HorizontalOptions="FillAndExpand"
+                    Visual="Material"
+                    FontAttributes="Bold"
+                    IsEnabled="True"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

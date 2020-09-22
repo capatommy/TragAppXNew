@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TragAppXNew.Pages.RegisterPage">
+    <ContentPage.Content>
+        <StackLayout
+            TranslationY="10"
+            Padding="20">
+            <!-- Place new controls here -->
+            <Image Source="@drawable/ic_launcher"/>
+            <Label Text="Registrati" 
+               FontSize="Title" 
+               TextColor="Black" 
+               HorizontalTextAlignment="Center"/>
+
+            <Label Text="Inserisci i tuoi dati" 
+               FontSize="Subtitle" 
+               TextColor="Black" 
+               HorizontalTextAlignment="Center"/>
+
+
+            <Entry x:Name="Entry_name" 
+               Placeholder="Name"
+               Keyboard="Text"/>
+
+            <Entry x:Name="Entry_surname" 
+               Placeholder="Surname"
+               Keyboard="Text"/>
+
+            <Entry x:Name="Entry_email" 
+               Placeholder="Email"
+               Keyboard="Email"/>
+
+            <Entry x:Name="Entry_Password" 
+               Placeholder="Password"
+               Keyboard="Text"
+               IsPassword="true"/>
+
+            <Button x:Name="Btn_registration" 
+                CornerRadius="10"
+                BackgroundColor="#5dbcd2"
+                TextColor="White"
+                Margin="20, 40"
+                Text="REGISTRATI"
+                HorizontalOptions="End"
+                Clicked="Btn_registration_clicked"/>
+
+            <Button x:Name="Btn_signin"               
+                Text="Hai già un account?" 
+                BackgroundColor="#5dbcd2"
+                TextColor="White"
+                Clicked="Btn_signin_Clicked"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

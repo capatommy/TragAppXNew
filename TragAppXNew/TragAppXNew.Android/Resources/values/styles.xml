@@ -1,0 +1,24 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#5dbcd2</item>
+        <item name="colorPrimaryDark">#607d8b</item>
+        <item name="colorAccent">#03DAC5</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+	</style>
+
+    <style name="ActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <!--Here you need to put name of drawable you will create during the next step-->
+        <item name="android:src">@android:color/white</item>
+    </style>
+
+    <style name="GenButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="DatePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary"> @color/colorPrimary</item>
+    </style>
+
+</resources>

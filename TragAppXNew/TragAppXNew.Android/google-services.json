@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "584051829299",
+    "firebase_url": "https://tragappx.firebaseio.com",
+    "project_id": "tragappx",
+    "storage_bucket": "tragappx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584051829299:android:b050ad85d693a3b9719146",
+        "android_client_info": {
+          "package_name": "com.companyname.tragappxnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584051829299-bcou2gm7grq83f8m4162u3ugp1sjtupk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpsB_zR8H26F3e6QDT4fz6dDZ7Cit2Xug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584051829299-bcou2gm7grq83f8m4162u3ugp1sjtupk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

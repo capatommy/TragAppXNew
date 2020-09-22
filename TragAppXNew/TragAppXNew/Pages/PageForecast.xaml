@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TragAppXNew.Pages.PageForecast">
+    <ContentPage.Content>
+        <StackLayout x:Name="Sl" TranslationY="10" Padding="20">
+
+            <Label
+                Text="Previsioni Meteo"
+                HorizontalTextAlignment="Center"
+                FontSize="30"
+                FontAttributes="Bold"
+                />
+
+            <StackLayout x:Name="Sl1" Margin="0,20,0,0" Orientation="Horizontal" HorizontalOptions="Fill" Padding="5">
+
+                <Label x:Name="lbl1prev"
+                       VerticalOptions="Center"
+                       FontSize="20"
+                       Margin="20,0"
+                    />
+
+                <Image x:Name="img1"
+                       VerticalOptions="Center"
+                       HeightRequest="70"
+                    />
+
+                <Label x:Name="lbl1temp"
+                       FontSize="20"
+                       VerticalOptions="Center"
+                       Margin="20,0"
+                    />
+
+            </StackLayout>
+
+            <StackLayout x:Name="Sl2" Orientation="Horizontal" HorizontalOptions="Fill" Padding="5">
+
+                <Label x:Name="lbl2prev"
+                       VerticalOptions="Center"
+                       FontSize="20"
+                       Margin="20,0"
+                       />
+
+                <Image x:Name="img2"
+                       VerticalOptions="Center"
+                       HeightRequest="50"
+                    />
+
+                <Label x:Name="lbl2temp"
+                       VerticalOptions="Center"
+                       FontSize="20"
+                       Margin="20,0"
+                    />
+
+            </StackLayout>
+
+            <StackLayout x:Name="Sl3" Orientation="Horizontal" HorizontalOptions="Fill" Padding="5">
+
+                <Label x:Name="lbl3prev"
+                       VerticalOptions="Center"
+                       FontSize="20"
+                       Margin="20,0"
+                       />
+
+                <Image x:Name="img3"
+                       VerticalOptions="Center"
+                       HeightRequest="50"
+                    />
+
+                <Label x:Name="lbl3temp"
+                       VerticalOptions="Center"
+                       FontSize="20"
+                       Margin="20,0"
+                    />
+
+            </StackLayout>
+
+            <StackLayout x:Name="Sl4" Orientation="Horizontal" HorizontalOptions="Fill" Padding="5">
+
+                <Label x:Name="lbl4prev"
+                       VerticalOptions="Center"
+                       FontSize="20"
+                       Margin="20,0"
+                       />
+
+                <Image x:Name="img4"
+                       VerticalOptions="Center"
+                       HeightRequest="50"
+                    />
+
+                <Label x:Name="lbl4temp"
+                       VerticalOptions="Center"
+                       FontSize="20"
+                       Margin="20,0"
+                    />
+
+            </StackLayout>
+
+            <StackLayout x:Name="Sl5" Orientation="Horizontal" HorizontalOptions="Fill" Padding="5">
+
+                <Label x:Name="lbl5prev"
+                       VerticalOptions="Center"
+                       FontSize="20"
+                       Margin="20,0"
+                       
+                       />
+
+                <Image x:Name="img5"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       HeightRequest="50"
+                    />
+
+                <Label x:Name="lbl5temp"
+                       VerticalOptions="Center"
+                       FontSize="20"
+                       Margin="20,0"
+                    />
+
+            </StackLayout>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

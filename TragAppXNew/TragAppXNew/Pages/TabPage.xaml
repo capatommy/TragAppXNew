@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TragAppXNew.Pages.TabPage"
+             xmlns:local="clr-namespace:TragAppXNew.Pages"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             
+             android:TabbedPage.BarSelectedItemColor="#5dbcd2"
+             BarTextColor="White">
+    
+  <!--Pages can be added as references or inline-->
+    <local:PageInfo Title="Info" IconImageSource="ic_baseline_info_24"></local:PageInfo>
+    <local:PageForecast Title="Meteo" IconImageSource="ic_baseline_wb_sunny_24"></local:PageForecast>
+    <local:PageProfile Title="Profilo" IconImageSource="ic_baseline_person_24"></local:PageProfile>
+</TabbedPage>
